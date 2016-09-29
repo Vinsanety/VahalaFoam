@@ -1,4 +1,152 @@
-* {
+/*FONT DECLARATION*/
+*{
+  color: #eceff1;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Exo', sans-serif;
+}
+/*END FONT*/
+
+
+/*START NAV*/
+/*Start Nav Large Sidebar*/
+#Nav-Logo{
+  width: 100%;
+  height: 100%;
+}
+#slide-out{
+  background-color: #e0e0e0;
+  /*background-color: #c0c0c0;*/
+  width: 12%;
+}
+#large-nav-links-container{
+  margin-top: 35%;
+  letter-spacing: 2px;
+}
+/*End Nav Large Sidebar*/
+
+/*Start Nav Medium*/
+.nav-wrapper{
+  background-color: #e0e0e0;
+}
+#nav-medium-logo-text{
+  color: black;
+  margin-left: 3%;
+}
+#nav-medium-links{
+  color: black;
+}
+/*End Nav Medium*/
+
+/*Start Nav Small*/
+.small-nav{
+
+}
+/*End Nav Small*/
+/*END NAV*/
+
+
+/*START HOME*/
+#home-header{
+  color: #e0e0e0;
+  /*color: #2196f3;*/
+}
+.home-container{
+  width: 88%;
+  height: 100%;
+  margin: 0 0 0 12%;
+}
+/*END HOME*/
+
+/*START TOP PARA*/
+#top-para-content-section{
+  width: 100%;
+  height: auto;
   background-color: black;
-  color: white;
+}
+/*END TOP PARA*/
+
+/*START ABOUT*/
+.about-content-section{
+  width: 100%;
+  background-color: #bdbdbd;
+}
+#about-text{
+  color: black;
+}
+/*END ABOUT*/
+
+
+/*START CAPABILITIES*/
+
+/*END CAPABILITIES*/
+
+/*START APPLICATIONS*/
+.applications-content-section{
+  width: 100%;
+  background-color: black;
+}
+#applications-text{
+  /*color: black;*/
+}
+/*END APPLICATIONS*/
+
+
+/*START FAQ*/
+
+/*END FAQ*/
+
+
+/*START TESTIMONIALS*/
+
+/*END TESTIMONIALS*/
+
+
+
+/*START CONTACT / FOOTER*/
+.footer{
+  background-color: black;
+  letter-spacing: 4px;
+}
+/*END CONTACT / FOOTER*/
+
+
+
+
+/* PARARLLAX IMPORT*/
+p {
+  line-height: 2rem;
+}
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }

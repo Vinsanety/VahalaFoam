@@ -16,13 +16,53 @@
     <script src="js/app.js"></script>
     <script src="js/controllers.js" charset="utf-8"></script>
 
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Exo|Open+Sans|Roboto" rel="stylesheet">
+
     <title>Vahala Foam</title>
   </head>
 
   <body ng-cloak>
 
-    <div ui-view></div>
+    <div id="Top"></div>
 
+    <header class='hide-on-med-and-down'>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <img class="background" id='Nav-Logo' src="images/Logo.jpg">
+        </li>
+        <div class='center' id='large-nav-links-container'>
+          <li><a class="waves-effect" href="#Top" target="_self">Home</a></li>
+          <li><a class="waves-effect" href="#About" target='_self'>About VF</a></li>
+          <li><a class="waves-effect" href="#Capabilities" target="_self">Capabilities</a></li>
+          <li><a class="waves-effect" href="#Applications" target="_self">Applications</a></li>
+          <li><a class="waves-effect" href="#FAQ" target="_self">FAQ</a></li>
+          <li><a class="waves-effect" href="#Testimonials" target="_self">Testimonials</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="waves-effect" href="#Contact" target="_self">Contact</a></li>
+        </div>
+      </ul>
+    </header>
+
+    <div class="navbar-fixed hide-on-large-only hide-on-small-only">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo left" id="nav-medium-logo-text">VF</a>
+          <ul id="nav-medium-links" class='right black'>
+            <li><a href="#About" target="_self">About VF</a></li>
+            <li><a href="#Capabilities" target="_self">Capabilities</a></li>
+            <li><a href="#Applications" target="_self">Applications</a></li>
+            <li><a href="#FAQ" target="_self">FAQ</a></li>
+            <li><a href="#Testimonials" target="_self">Testimonials</a></li>
+            <li><a href="#Contact" target="_self">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div ui-view>
+
+    </div>
 
     <!-- Angular Material requires Angular.js Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
@@ -32,7 +72,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
     <!--Import jQuery before materialize.js-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>  
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 
 </html>
