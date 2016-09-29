@@ -52,10 +52,16 @@
   color: #e0e0e0;
   /*color: #2196f3;*/
 }
+#home-subheader{
+  color: #BDBDBD;
+}
 .home-container{
   width: 88%;
   height: 100%;
   margin: 0 0 0 12%;
+}
+#home-contact-btn{
+  margin-top: 3%;
 }
 /*END HOME*/
 
