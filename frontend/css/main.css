@@ -8,9 +8,16 @@
 }
 /*END FONT*/
 
-p{
-  font-size: 16px;
+.grey-section-headers{
+  font-weight: bold;
+  text-shadow: 1px 2px black;
 }
+.black-section-headers{
+  color: #BDBDBD;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
 
 
 
@@ -114,7 +121,7 @@ p{
 #capabilities-text{
   color: black;
 }
-#RD-Abilities-List{
+#Capabilities-Section-Lists{
   color: black;
   font-size: 18px;
   letter-spacing: 2px;
@@ -142,6 +149,10 @@ p{
 }
 /*END CAPABILITIES*/
 
+#carousel{
+  background-color: white;
+}
+
 /*START APPLICATIONS*/
 .applications-content-section{
   width: 100%;
@@ -149,6 +160,13 @@ p{
 }
 #applications-text{
   color: white;
+}
+#Applications-Section-Lists{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  padding: 1% 0 1% 0;
 }
 /*END APPLICATIONS*/
 
