@@ -17,7 +17,6 @@
 }
 #slide-out{
   background-color: #e0e0e0;
-  /*background-color: #c0c0c0;*/
   width: 12%;
 }
 #large-nav-links-container{
@@ -34,7 +33,11 @@
   color: black;
   margin-left: 3%;
 }
-#nav-medium-links{
+#nav-medium-links-container{
+  background-color: #e0e0e0;
+  color: black;
+}
+.nav-medium-links{
   color: black;
 }
 /*End Nav Medium*/
@@ -55,10 +58,13 @@
 #home-subheader{
   color: #BDBDBD;
 }
-.home-container{
+.home-container-large{
   width: 88%;
   height: 100%;
   margin: 0 0 0 12%;
+}
+.home-container-medium{
+  width: 100%;
 }
 #home-contact-btn{
   margin-top: 3%;
