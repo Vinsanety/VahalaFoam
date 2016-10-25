@@ -43,8 +43,22 @@
 /*End Nav Medium*/
 
 /*Start Nav Small*/
-.small-nav{
-  
+#dropdown-button{
+  color: #424242;
+}
+#small-nav-dropdown{
+  width: auto;
+}
+#small-nav-logo{
+  color: black;
+}
+#small-nav-link{
+  color: black;
+  /*margin: 5% 0 0 0;*/
+}
+#small-nav-icon{
+  display: inline-block;
+  margin: 5% 5% 0 0;
 }
 /*End Nav Small*/
 /*END NAV*/

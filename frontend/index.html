@@ -81,19 +81,20 @@
 
     <div class="navbar-fixed hide-on-med-and-up">
       <!-- Dropdown Structure -->
-      <ul id="small-nav-list" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-        <li><a href="#!">two</a></li>
+      <ul id="small-nav-dropdown" class="dropdown-content">
+        <li><a id='small-nav-link' href="#About" target="_self"><i id='small-nav-icon' class='material-icons prefix'>build</i>About VF</a></li>
+        <li><a id='small-nav-link' href="#Capabilities" target="_self"><i id='small-nav-icon' class='material-icons prefix'>settings</i>Capabilities</a></li>
         <li class="divider"></li>
-        <li><a href="#!">three</a></li>
-        <li><a href="#!">three</a></li>
-        <li><a href="#!">three</a></li>
+        <li><a id='small-nav-link' href="#Applications" target="_self"><i id='small-nav-icon' class='material-icons prefix'>extension</i>Applications</a></li>
+        <li><a id='small-nav-link' href="#FAQ" target="_self"><i id='small-nav-icon' class='material-icons prefix'>live_help</i>FAQ</a></li>
+        <li><a id='small-nav-link' href="#Testimonials" target="_self"><i id='small-nav-icon' class='material-icons prefix'>people</i>Testmonals</a></li>
+        <li><a id='small-nav-link' href="#Contact" target="_self"><i id='small-nav-icon' class='material-icons prefix'>forum</i>Contact</a></li>
       </ul>
       <nav>
         <div class="nav-wrapper small-nav">
-          <a href="Top" class="brand-logo center">Vahala Foam</a>
+          <a href="#Top" class="brand-logo center" id='small-nav-logo'>Vahala Foam</a>
           <ul>
-            <li><a class="dropdown-button" data-activates="small-nav-list" data-beloworigin="true" data-hover='true'><i class="material-icons">list</i></a></li>
+            <li><a class="dropdown-button" data-activates="small-nav-dropdown" data-beloworigin="true" data-hover='true' data-constrainwidth="false"><i class="material-icons" id='dropdown-button'>list</i></a></li>
           </ul>
         </div>
       </nav>
