@@ -126,9 +126,7 @@
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: bolder;
-  /*font-variant: small-caps;*/
 }
-
 .Capabilities-hr {
     width: 80%;
     margin-left: auto;
@@ -149,9 +147,6 @@
 }
 /*END CAPABILITIES*/
 
-#carousel{
-  background-color: white;
-}
 
 /*START APPLICATIONS*/
 .applications-content-section{
@@ -167,6 +162,39 @@
   letter-spacing: 2px;
   font-weight: bolder;
   padding: 1% 0 1% 0;
+}
+.Applications-hr{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: none;
+  border-top: medium double #ffffff;
+  color: #ffffff;
+  text-align: center;
+}
+.Applications-hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+}
+#carousel{
+  background-color: black;
+  margin-top: -10px;
+}
+.carousel{
+  margin-bottom: -75px;
+  margin-top: 25px;
+}
+#carousel-header{
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.carousel-img{
+  width: 400px;
 }
 /*END APPLICATIONS*/
 
