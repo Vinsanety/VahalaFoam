@@ -8,6 +8,11 @@
 }
 /*END FONT*/
 
+p{
+  font-size: 16px;
+}
+
+
 
 /*START NAV*/
 /*Start Nav Large Sidebar*/
@@ -67,10 +72,11 @@
 /*START HOME*/
 #home-header{
   color: #e0e0e0;
-  /*color: #2196f3;*/
+  text-shadow: 1px 2px black;
 }
 #home-subheader{
   color: #BDBDBD;
+  text-shadow: 2px 2px black;
 }
 .home-container-large{
   width: 88%;
@@ -105,7 +111,35 @@
 
 
 /*START CAPABILITIES*/
+#capabilities-text{
+  color: black;
+}
+#RD-Abilities-List{
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  /*font-variant: small-caps;*/
+}
 
+.Capabilities-hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+.Capabilities-hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+}
 /*END CAPABILITIES*/
 
 /*START APPLICATIONS*/
@@ -114,7 +148,7 @@
   background-color: black;
 }
 #applications-text{
-  /*color: black;*/
+  color: white;
 }
 /*END APPLICATIONS*/
 
