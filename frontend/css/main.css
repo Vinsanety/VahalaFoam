@@ -109,20 +109,26 @@
 /*START ABOUT*/
 .about-content-section{
   width: 100%;
+  height: 45vh;
   background-color: #bdbdbd;
 }
 #about-text{
   color: black;
+  font-size: 20px;
 }
 /*END ABOUT*/
 
 
 /*START CAPABILITIES*/
+#Capabilities{
+  background-color: black;
+}
 #capabilities-text{
-  color: black;
+  color: white;
+  font-size: 20px;
 }
 #Capabilities-Section-Lists{
-  color: black;
+  color: white;
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -133,8 +139,8 @@
     margin-right: auto;
     padding: 0;
     border: none;
-    border-top: medium double #333;
-    color: #333;
+    border-top: medium double #ffffff;
+    color: #ffffff;
     text-align: center;
 }
 .Capabilities-hr:after {
@@ -151,17 +157,17 @@
 /*START APPLICATIONS*/
 .applications-content-section{
   width: 100%;
-  background-color: black;
+  background-color: #bdbdbd;
 }
 #applications-text{
   color: white;
 }
 #Applications-Section-Lists{
-  color: white;
+  color: black;
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: bolder;
-  padding: 1% 0 1% 0;
+  /*padding: 1% 0 1% 0;*/
 }
 .Applications-hr{
   width: 80%;
@@ -169,8 +175,8 @@
   margin-right: auto;
   padding: 0;
   border: none;
-  border-top: medium double #ffffff;
-  color: #ffffff;
+  border-top: medium double #000000;
+  color: #000000;
   text-align: center;
 }
 .Applications-hr:after {
@@ -182,7 +188,6 @@
   padding: 0 0.25em;
 }
 #carousel{
-  background-color: black;
   margin-top: -10px;
 }
 .carousel{
@@ -190,7 +195,7 @@
   margin-top: 25px;
 }
 #carousel-header{
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 0;
 }
 .carousel-img{
