@@ -205,7 +205,21 @@
 
 
 /*START FAQ*/
-
+#FAQ{
+  background-color: black;
+}
+#FAQ-List{
+  background-color: #616161;
+}
+#collapsible-header{
+  background-color: #dbdbdb;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+#FAQ-icons{
+  color: black;
+}
 /*END FAQ*/
 
 
