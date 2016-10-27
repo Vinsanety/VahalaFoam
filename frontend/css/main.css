@@ -10,15 +10,15 @@
 
 .grey-section-headers{
   color: white;
-  font-weight: bold;
-  text-shadow: 1px 2px black;
+  font-weight: 400;
+  /*text-shadow: 1px 2px black;*/
   letter-spacing: 10px;
 }
 .black-section-headers{
   /*color: #BDBDBD;*/
   color: white;
-  font-weight: bold;
-  text-shadow: 1px 1px #BDBDBD;
+  font-weight: 400;
+  /*text-shadow: 1px 1px #BDBDBD;*/
   letter-spacing: 10px;
 }
 
@@ -89,6 +89,9 @@
 #home-subheader{
   color: #BDBDBD;
   text-shadow: 2px 2px black;
+}
+#home-sub-subheader{
+  font-weight: 400;
 }
 .home-container-large{
   width: 88%;
