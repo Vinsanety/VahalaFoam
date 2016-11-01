@@ -124,6 +124,10 @@
   color: #212121;
   font-size: 20px;
 }
+#About-Small{
+  height: auto;
+  overflow: scroll;
+}
 /*END ABOUT*/
 
 
@@ -243,10 +247,12 @@
 .testimonials-content-section{
   width: 100%;
   height: 70vh;
+  overflow: scroll;
   background-color: #9e9e9e;
 }
 #Testimonial-Card{
   background-color: #212121;
+  height: 100%;
 }
 /*END TESTIMONIALS*/
 
