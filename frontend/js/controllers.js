@@ -16,7 +16,9 @@ function($http, $scope) {
       }
     );
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+      closeOnClick: true
+    });
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.collapsible').collapsible({
