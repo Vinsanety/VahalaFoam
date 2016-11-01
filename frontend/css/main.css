@@ -240,7 +240,11 @@
 
 
 /*START TESTIMONIALS*/
-
+.testimonials-content-section{
+  width: 100%;
+  height: 70vh;
+  background-color: #9e9e9e;
+}
 /*END TESTIMONIALS*/
 
 
