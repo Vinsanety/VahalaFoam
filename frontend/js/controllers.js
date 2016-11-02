@@ -11,14 +11,14 @@ function($http, $scope) {
       hover: true, // Activate on hover
       gutter: 0, // Spacing from edge
       belowOrigin: true, // Displays dropdown below the button
-      alignment: 'left', // Displays dropdown with edge aligned to the left of button
-      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      alignment: 'left' // Displays dropdown with edge aligned to the left of button
       }
     );
 
     $('.button-collapse').sideNav({
       closeOnClick: true
     });
+    
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.collapsible').collapsible({
