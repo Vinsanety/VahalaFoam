@@ -117,12 +117,13 @@
 /*START ABOUT*/
 .about-content-section{
   width: 100%;
-  height: 45vh;
+  height: auto;
   background-color: #9e9e9e;
 }
 #about-text{
   color: #212121;
   font-size: 20px;
+  padding-bottom: 1%;
 }
 #About-Small{
   height: auto;
@@ -132,6 +133,10 @@
 
 
 /*START CAPABILITIES*/
+.capabilities-content-section{
+  width: 100%;
+  height: auto;
+}
 #Capabilities{
   background-color: #212121;
 }
