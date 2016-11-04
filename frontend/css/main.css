@@ -249,6 +249,20 @@
 
 
 /*START TESTIMONIALS*/
+.testimonials-header-fixer{
+  color: white;
+  font-weight: 400;
+  letter-spacing: 10px;
+  margin: 0;
+  padding-top: 3%;
+  width: 100%;
+  height: auto;
+  background-color: #9E9E9E;
+}
+#testy-fixer{
+  margin: 0;
+  padding: 0;
+}
 .testimonials-content-section{
   width: 100%;
   height: 70vh;
